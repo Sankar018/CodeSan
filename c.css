@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    border: Border-box;
+}
+body::before{
+    background-image: url("c_back.jpeg");
+    background-size:auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 340%;
+    width: 100%;
+    content: "";
+    z-index: -1;
+    filter:brightness(30%);
+}
+.navebar{
+    height: 70px;
+    background-color: #0A1128;
+    display: flex;
+}
+.navank{
+    color: #FEFCFB;
+    /* margin  : 400px; */
+    text-decoration: none;
+    font-family: sans-serif;
+}
+#logo{
+    font-size: 25px;
+    color: #1282A2;
+    text-decoration: none;
+    font-family:sans-serif;
+}
+.navdiv1{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.navline{
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.navdiv2{
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+    padding-left: 16px;
+}
+.Singup{
+    margin: 22px;
+    padding-left: 850px;
+}
+.signbutt{
+    height: 30px;
+    width: 100px;
+    margin-left: 400px;
+    border-radius: 10px;
+    background : linear-gradient(150deg,#FF8360,#E8E288,#7DCE82,#3CDBD3,#00FFF5);
+}
+#butid{
+    font-size: 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+.user{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.border:hover{
+    border: 2px solid #74C0FC;
+}
+
+.heading{
+    justify-content: center;
+    display:grid;
+    height: 9rem;
+}
+.head1{
+    color:#00FFF5;
+    height:3rem;
+    width: 20rem;
+    margin-top: 1rem;
+    margin-left: 37rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:sans-serif;
+    font-weight: 900;
+    filter: drop-shadow(1px 1px 20px #00FFF5);
+}
+.head2{
+    color:aliceblue;
+    height: 3rem;
+    width: 90rem;
+    margin: 1.5rem;
+    font-family: "Raleway", sans-serif;
+    font-size:large;
+}
+.basic{
+    height: 45rem;
+    margin-left: 2rem;
+    margin-right: 40rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    display: grid;
+}
+.L1{
+    display: flex;
+    align-items: center;
+}
+.lev1{
+    display: flex;
+    height: 2.5rem;
+    width: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: calc(50%);
+    border: 3.5px solid gainsboro;
+    margin-left: 15rem;
+}
+#o1{
+    color:#0A1128;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(148, 148, 148);
+    border-radius: calc(50%);
+}
+#o1w{
+    margin-left: 1rem;
+    font-family:sans-serif;
+    color: greenyellow;
+}
+.Qnbox{
+    display: flex;
+    margin-top: 1rem;
+}
+.Qno{
+    width: 3rem;
+    display: grid;
+}
+.Q1{
+    display: flex;
+    height: 1.5rem;
+    width: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: calc(50%);
+    border: 3.5px solid skyblue;
+    margin-top: 2rem;
+}
+#q1{
+    color:whitesmoke;
+    height: 1rem;
+    width: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(148, 148, 148); */
+    background-color: #0A1128;
+    border-radius: calc(50%);
+}
+.border3:hover{
+    filter: drop-shadow(1px 1px 10px skyblue);
+}
+.bquestion{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.Question{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 20px;
+    color:aliceblue;
+    font-style: italic;
+    filter: drop-shadow(2px 2px 30px #0A1128);
+    margin-top: 2.1rem;
+}
+#solve{
+    text-decoration: none;
+    color: rgb(77, 244, 77);
+}
+.advance{
+    height: 65rem;
+    margin-left: 2rem;
+    margin-right: 25rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+.L2{
+    display: flex;
+    align-items: center;
+}
+.lev2{
+    display: flex;
+    height: 2.5rem;
+    width: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: calc(50%);
+    border: 3.5px solid gainsboro;
+    margin-left: 15rem;
+}
+#o2{
+    color:#0A1128;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(148, 148, 148);
+    border-radius: calc(50%);
+}
+#o2w{
+    margin-left: 1rem;
+    font-family:sans-serif;
+    color:rgb(246, 184, 70);
+}
+.aquestion{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+#asolve{
+    text-decoration: none;
+    color: orange;
+}
+.pro{
+    height: 65rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+#psolve{
+    text-decoration: none;
+    color: red;
+}
+.footer{
+    height: 70px;
+    background-color: #131A22;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.copywrite{
+    color: #DDDDDD; 
+    font-family: "Raleway", sans-serif;
+    padding-right: 7.7rem;
+}
+.socalmedia{
+    height: 25px;
+    color:#DDDDDD;
+}
+.smedia{
+    margin: 1rem;
+    font-size: 1.4rem;
+}
